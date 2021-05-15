@@ -1,0 +1,65 @@
+* {
+    font-family: 'Oswald';
+}
+
+body {
+    background: #ffd1ff;
+    
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.bigBox {
+    /* border: 1px solid rgb(184, 184, 184); */
+    width: 332.5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.IDContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.user {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 340px;
+}
+
+.cpu {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 330px;
+}
+
+.message {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.choiceBox {
+    /* border-top: 1px solid rgb(184, 184, 184); */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.circleImage img {
+    padding: 20px;
+}
+
+.imagehover img:hover {
+    box-shadow: 0px 10px 20px rgb(195, 21, 248);
+    cursor: pointer;
+}
